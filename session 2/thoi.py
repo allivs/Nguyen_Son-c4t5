@@ -1,6 +1,6 @@
 from turtle import *
 shape("turtle")
-color("red")
+color("green")
 speed(0)
 
 left(90)

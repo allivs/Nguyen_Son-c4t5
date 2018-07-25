@@ -1,6 +1,7 @@
 from turtle import *
-speed(0)
-shape("circle")
+speed(-1)
+shape("turtle")
+
 
 for i in range(3):
     color("blue")
