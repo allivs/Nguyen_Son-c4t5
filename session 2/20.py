@@ -1,0 +1,1 @@
+print(*range(0, 20, 1), sep=" ")
