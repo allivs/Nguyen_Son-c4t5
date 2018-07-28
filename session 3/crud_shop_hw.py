@@ -11,8 +11,9 @@ elif question == "R":
 
 elif question == "U":
     pos = int(input("Update position? "))
+    shop.pop(pos - 1)
     new = input("New item: ")
-    shop.insert(pos - 1, new)
+    shop.append(new)
     print(*shop, sep=", ")
 
 elif question == "D":

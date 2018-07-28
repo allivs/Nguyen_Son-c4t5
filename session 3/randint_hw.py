@@ -2,7 +2,7 @@ wordlist = ("one", "two", "three", "ten", "i love you")
 
 from random import randint, choice
 word = choice(wordlist)
-res = ["."]
+res = [""]
 sap = [""]
 pos = 0
 le = len(word)

@@ -11,13 +11,13 @@ for i in range(le):
         c = i
 print("Now my biggest sheep has size:", kill, ". Let's shear it")
 sheeps[c] = 8
-
 print("After shearing, here is my flock")
 print(*sheeps, sep=", ")
 print()
+kill = 0
 s = 0
 for k in range(4):
-    s += 1
+    s += k
     for i in range(le):
         sheeps[i] += 50
     print("Month", s, ":")
@@ -34,6 +34,7 @@ for k in range(4):
     print("After shearing, here is my flock")
     print(*sheeps, sep=", ")
     print()
+    kill = 0
 
 s = 0
 for i in range(le):
