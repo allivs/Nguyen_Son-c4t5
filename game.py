@@ -22,8 +22,8 @@ y1 = 100
 x2 = 570
 y2 = 400
 
-x3 = 500
-y3 = 100
+x3 = 300
+y3 = 270
 x3_v = 5
 y3_v = 3
 
@@ -62,7 +62,7 @@ while loop:
         y1 -= 10
     if s_press:
         y1 += 10
-    if up_press:s
+    if up_press:
         y2 -= 10
     if down_press:
         y2 += 10
@@ -81,3 +81,4 @@ while loop:
     canvas.blit(ball_image, (x3, y3))
     clock.tick(60)
     pygame.display.flip()
+
